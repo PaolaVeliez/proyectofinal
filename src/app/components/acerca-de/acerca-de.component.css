@@ -2,7 +2,7 @@
     padding: 20px;
 }
 div{
-    background-color:#a1b5cb ;
+    background-color:#ff97d7 ;
     text-align: center;
 }
 /*foto de perfil*/
@@ -11,7 +11,7 @@ div{
     position: absolute; 
     width: 15%; 
     border-radius: 100%; 
-    box-shadow: 3% 35 3% grey ; 
+    box-shadow: 3% 35 3% rgb(252, 109, 156) ; 
     left: 3%;
     top: 600px;
     }
@@ -20,9 +20,9 @@ div{
         position: absolute; 
         width: 30%; 
         border-radius: 100%; 
-        box-shadow: 3% 35 3% grey ; 
+        box-shadow: 3% 35 3% rgb(252, 109, 156) ; 
         left: 33%;
-        top: 630px;
+        top: 950px;
         }
 }
 /*etiqueta nombre*/
