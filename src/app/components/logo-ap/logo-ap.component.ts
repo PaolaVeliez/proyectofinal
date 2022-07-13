@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { trace } from 'console';
+import { TokenService } from 'src/app/service/token.service';
 
 @Component({
   selector: 'app-logo-ap',
@@ -7,12 +9,23 @@ import { Router } from '@angular/router';
   styleUrls: ['./logo-ap.component.css']
 })
 export class LogoAPComponent implements OnInit {
-
-  constructor(private ruoter:Router) { }
+isLogged = false;
+  constructor(private ruoter:Router, private tokenService: TokenService) { }
 
   ngOnInit(): void {
-  }
+    if (this.tokenService.getToken()){
+      this.isLogged=true;
+    }else{
+      this.isLogged = false;
+    }
+    }
+    onLogOut(): void{
+      this.tokenService.logOut();
+      window.location.reload();
+    }
+  
 login(){
   this.ruoter.navigate(['/login'])
 }
 }
+

@@ -17,6 +17,7 @@ import { HttpClientModule} from "@angular/common/http";
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
+import { interceptorProvider } from './service/interceptor-service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +42,9 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 
 HttpClientModule
   ],
-  providers: [],
+  providers: [
+     interceptorProvider
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
