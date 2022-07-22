@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { trace } from 'console';
 import { TokenService } from 'src/app/service/token.service';
 
 @Component({
