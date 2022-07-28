@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { error } from 'console';
+import { Component, OnInit } from '@angular/core'
 import { Experiencia } from 'src/app/Model/experiencia';
 import { SExperienciaService } from 'src/app/service/s-experiencia';
 import { TokenService } from 'src/app/service/token.service';

@@ -21,6 +21,7 @@ import { FormsModule } from '@angular/forms';
 import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
 import { EditeducacionComponent } from './components/educacion/editeducacion.component';
+import { NeweducacionComponent } from './components/educacion/neweducacion.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +39,8 @@ import { EditeducacionComponent } from './components/educacion/editeducacion.com
     LoginComponent,
     NewExperienciaComponent,
     EditExperienciaComponent,
-    EditeducacionComponent
+    EditeducacionComponent,
+    NeweducacionComponent
   ],
   imports: [
 
