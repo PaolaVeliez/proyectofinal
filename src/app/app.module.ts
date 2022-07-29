@@ -15,7 +15,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule} from "@angular/common/http";
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
-import { AppRoutingModule } from './app-routing/app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 import { interceptorProvider } from './service/interceptor-service';
 import { FormsModule } from '@angular/forms';
 import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';

@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
-import { HomeComponent } from '../components/home/home.component';
+import { HomeComponent } from './components/home/home.component';
 import { RouterModule, Routes } from '@angular/router';
-import { LoginComponent } from '../components/login/login.component';
-import { NewExperienciaComponent } from '../components/experiencia/new-experiencia.component';
-import { EditExperienciaComponent } from '../components/experiencia/edit-experiencia.component';
-import { EditeducacionComponent } from '../components/educacion/editeducacion.component';
-import { NeweducacionComponent } from '../components/educacion/neweducacion.component';
+import { LoginComponent } from './components/login/login.component';
+import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
+import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
+import { EditeducacionComponent } from './components/educacion/editeducacion.component';
+import { NeweducacionComponent } from './components/educacion/neweducacion.component';
 
 const router: Routes = [
   {path:'',component: HomeComponent},
