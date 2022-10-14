@@ -8,13 +8,17 @@ div{
 /*foto de perfil*/
 @media (min-width:576px) {
     #fotodeperfil{
-    position: absolute; 
-    width: 15%; 
+    
     border-radius: 100%; 
     box-shadow: 3% 35 3% rgb(252, 109, 156) ; 
-    left: 3%;
-    top: 600px;
     }
+
+    .descripcion{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     @media (max-width:575px) {
         #fotodeperfil{
         position: absolute; 
